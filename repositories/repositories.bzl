@@ -58,7 +58,7 @@ def repositories():
 
     if "go_puller_darwin_amd64" not in excludes:
         http_file(
-            name = "go_puller_darwin",
+            name = "go_puller_darwin_amd64",
             executable = True,
             sha256 = "4855c4f5927f8fb0f885510ab3e2a166d5fa7cde765fbe9aec97dc6b2761bb22",
             urls = [("https://storage.googleapis.com/rules_docker/" + RULES_DOCKER_GO_BINARY_RELEASE + "/puller-darwin-amd64")],
