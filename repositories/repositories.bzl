@@ -66,9 +66,9 @@ def repositories():
 
     if "go_puller_darwin_arm64" not in excludes:
        http_file(
-           name = "go_puller_darwin_arm64",
-	   executable = True,
-	   urls = [("https://github.com/anyscale/rules_docker/releases/download/untagged-08183fb65419e426ac42/puller-darwin-arm64")],
+            name = "go_puller_darwin_arm64",
+            executable = True,
+            urls = [("https://github.com/anyscale/rules_docker/releases/download/darwin-arm64-v0.0.4/puller-darwin-arm64")],
        )
 
     if "loader_linux_amd64" not in excludes:
